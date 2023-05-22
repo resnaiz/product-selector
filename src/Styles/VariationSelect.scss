@@ -1,0 +1,40 @@
+.variation-select {
+  margin-bottom: 20px;
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+  }
+
+  .variation-select_list {
+    h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #20211a8c;
+    }
+
+    select {
+      appearance: none;
+      background-color: #f2f2f2;
+      border: none;
+      border-radius: 4px;
+      padding: 10px;
+      font-size: 16px;
+      color: black;
+      width: 100%;
+      cursor: pointer;
+
+      &:focus {
+          outline: none;
+          background-color: #ebebeb;
+      }
+      
+      &:hover {
+          outline: none;
+          box-shadow: 0 0 1px 1px #20211a8c;
+          background-color: #ebebeb;
+      }
+    }
+  }
+}

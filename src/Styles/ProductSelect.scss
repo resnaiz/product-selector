@@ -1,0 +1,23 @@
+.product-select_list {
+  select {
+    appearance: none;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+    width: 100%;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+      background-color: #ebebeb;
+    }
+
+    &:hover {
+      box-shadow: 0 0 0 1px #20211a8c;
+      background-color: #ebebeb;
+    }
+  }
+}
