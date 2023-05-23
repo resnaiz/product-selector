@@ -6,7 +6,6 @@ Product menu that generates the relevant product code when the product and varia
 
 - Clone the repository: `https://github.com/resnaiz/product-selector.git`
 - Install dependencies: `npm install`
-- Install SASS using: `npm install sass-loader sass resolve-url-loader --save-dev`
 - Start the server: `npm start`
 - Open `http://localhost:3000` in your browser and enjoy!
 
